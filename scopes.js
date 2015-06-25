@@ -3,5 +3,7 @@ function foo () {
 	quux = 11;
 	function zip () {
 		var quux;
+		bar = true;
 	}
+	return zip;
 }
